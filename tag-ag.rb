@@ -1,9 +1,9 @@
 require 'formula'
 
 HOMEBREW_TAG_VERSION='1.0.0'
-class Tag < Formula
+class TagAg < Formula
   homepage 'https://github.com/aykamko/tag'
-  url 'https://github.com/aykamko/tag.git', :tag => "v#{HOMEBREW_TAG_VERSION}"
+  url 'https://github.com/aykamko/tag.git', :tag => HOMEBREW_TAG_VERSION
   version HOMEBREW_TAG_VERSION
   head 'https://github.com/aykamko/tag.git', :branch => 'master'
 
