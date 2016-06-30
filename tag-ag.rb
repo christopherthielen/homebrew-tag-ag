@@ -1,10 +1,11 @@
 require 'formula'
 
-HOMEBREW_TAG_VERSION='1.1.0'
+HOMEBREW_TAG_VERSION='1.2.0'
 class TagAg < Formula
+  desc 'Instantly jump to your ag matches.'
   homepage 'https://github.com/aykamko/tag'
   url "https://github.com/aykamko/tag/releases/download/#{HOMEBREW_TAG_VERSION}/tag_darwin_amd64.zip"
-  sha256 'bd9eb7b7e4ba7c7f295c9b396b6c3a824425bc5f71f65d2b0fa90356fcf8c9f1'
+  sha256 'b696243ac49053e60b1747b26c9d9731dad2534be660bf229fa959e5a4c4bc91'
 
   version HOMEBREW_TAG_VERSION
   head 'https://github.com/aykamko/tag.git', :branch => 'master'
