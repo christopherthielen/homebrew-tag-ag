@@ -1,9 +1,9 @@
-HOMEBREW_TAG_VERSION="1.2.0".freeze
+HOMEBREW_TAG_VERSION="1.2.1".freeze
 class TagAg < Formula
   desc "Instantly jump to your ag matches."
   homepage "https://github.com/aykamko/tag"
   url "https://github.com/aykamko/tag/releases/download/#{HOMEBREW_TAG_VERSION}/tag_darwin_amd64.zip"
-  sha256 "b696243ac49053e60b1747b26c9d9731dad2534be660bf229fa959e5a4c4bc91"
+  sha256 "6b9d40c525cf303254442c02c63e3a1e841768d85eb54c7c3c176f94d65354d8"
 
   version HOMEBREW_TAG_VERSION
   head "https://github.com/aykamko/tag.git", :branch => "master"
