@@ -3,7 +3,7 @@ class TagAg < Formula
   desc "Instantly jump to your ag or ripgrep matches."
   homepage "https://github.com/aykamko/tag"
   url "https://github.com/aykamko/tag/releases/download/#{HOMEBREW_TAG_VERSION}/tag_darwin_amd64.zip"
-  sha256 "6b9d40c525cf303254442c02c63e3a1e841768d85eb54c7c3c176f94d65354d8"
+  sha256 "d5cfe843e0953e1f440a82e488d54b0a9f51671a70bba74f7417107c788f1796"
 
   version HOMEBREW_TAG_VERSION
   head "https://github.com/aykamko/tag.git", :branch => "master"
