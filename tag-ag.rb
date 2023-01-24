@@ -1,9 +1,9 @@
 HOMEBREW_TAG_VERSION="v1.4.0".freeze
 class TagAg < Formula
   desc "Instantly jump to your ag or ripgrep matches."
-  homepage "https://github.com/aykamko/tag"
-  url "https://github.com/aykamko/tag/archive/refs/tags/#{HOMEBREW_TAG_VERSION}.tar.gz"
-  sha256 "d3a02466e600634cf0ffff9ad8c5f70eba97e44758edf35cc4efbda9cbfdff9a"
+  homepage "https://github.com/christopherthielen/tag"
+  url "https://github.com/christopherthielen/tag/archive/refs/tags/#{HOMEBREW_TAG_VERSION}-christopherthielen.tar.gz"
+  sha256 "69c86d02c7b367347b8efd68b98ffc5d691093d2a789c46ecc710e8bba119e69"
 
   version HOMEBREW_TAG_VERSION
   head "https://github.com/aykamko/tag.git", :branch => "master"
