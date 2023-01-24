@@ -3,7 +3,7 @@ class TagAg < Formula
   desc "Instantly jump to your ag or ripgrep matches."
   homepage "https://github.com/christopherthielen/tag"
   url "https://github.com/christopherthielen/tag/archive/refs/tags/#{HOMEBREW_TAG_VERSION}-christopherthielen.tar.gz"
-  sha256 "69c86d02c7b367347b8efd68b98ffc5d691093d2a789c46ecc710e8bba119e69"
+  sha256 "c1891349f7cbc4ebacfdf36387de2234f3424e19f9a7ef25da85ecbf9d8f0ac3"
 
   version HOMEBREW_TAG_VERSION
   head "https://github.com/aykamko/tag.git", :branch => "master"
